@@ -132,24 +132,6 @@ Customer-Shopping-Trends-Analysis
 └── README.md
 ```
 
----
-
-# 📷 Dashboard Preview
-
-## Dashboard Overview
-
-> *(Add screenshot here)*
-
-## Customer Segmentation
-
-> *(Add screenshot here)*
-
-## Revenue Analysis
-
-> *(Add screenshot here)*
-
----
-
 # 💡 Skills Demonstrated
 
 - Data Cleaning
