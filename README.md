@@ -1,92 +1,186 @@
-# 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
-This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
+# 📊 Customer Shopping Trends Analysis
 
-This project is perfect for:
-- 📊 Data Analyst aspirants who want to build a strong **Portfolio Project** for interviews and LinkedIn
-- 📚 Anyone learning Python, SQL, and Power BI
-- 💼 Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
+## 📌 Overview
 
-# **🎥 Watch this [YouTube video](https://www.youtube.com/watch?v=5PrZvPeUw60&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=3) to implement the full project from scratch:**  
-[![Advanced Data Analysis Portfolio Project using Retail Customer Data](https://github.com/user-attachments/assets/abbb6371-a0b2-4bec-a304-7c7da98658b6)](https://www.youtube.com/watch?v=x8dfQkKTyP0&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=2)
-🔗 *Link to Video:* [Watch on Youtube](https://www.youtube.com/watch?v=5PrZvPeUw60&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=3)
+Customer Shopping Trends Analysis is an end-to-end data analytics project that analyzes retail customer purchase behavior using **Python, SQL, and Power BI**. The project focuses on transforming raw customer shopping data into meaningful business insights through data cleaning, SQL analysis, visualization, and dashboard reporting.
 
+---
 
-## 📌 Project Overview
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
+# 🎯 Business Objective
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+The objective of this project is to analyze customer demographics, purchasing behavior, product preferences, and subscription trends to help businesses:
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
+- Understand customer purchasing patterns
+- Identify high-performing product categories
+- Analyze customer segmentation
+- Monitor revenue trends
+- Support data-driven business decisions
 
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
+---
 
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+# 🛠️ Tech Stack
 
-![Project Workflow](https://github.com/user-attachments/assets/8bbd5dc9-eb6c-40c1-8f19-c08b4107f654)
+- **Programming:** Python
+- **Libraries:** Pandas
+- **Database:** MySQL
+- **Visualization:** Power BI
+- **Version Control:** Git & GitHub
 
-## 🛠️ How to Use This Project
+---
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-   cd customer-trends-data-analysis-SQL-Python-PowerBI
-   ```
-2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
+# 📂 Dataset
 
-    This file contains:
+The dataset contains customer shopping information including:
 
-      - Data Import
+- Customer Demographics
+- Age
+- Gender
+- Product Category
+- Purchase Amount
+- Subscription Status
+- Payment Method
+- Shipping Type
+- Discount Applied
+- Promo Code Usage
+- Previous Purchases
+- Purchase Frequency
 
-      - Data exploration
+---
 
-      - Data cleaning
+# ⚙️ Project Workflow
 
-      - Connection to SQL Database
-  
-3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
+### 1. Data Cleaning & Preparation
 
-      - Create a database in SQL
+- Cleaned missing and inconsistent values
+- Validated data quality
+- Prepared analysis-ready dataset using Pandas
 
-      - Run Python code to load data into SQL database
-  
-      - Open **customer_behavior_sql_queries.sql**
-  
-      - Answer Business Questions using SQL Queries 
-      
-4. **Connect the SQL Database to Power BI**
+---
 
-      - Open **customer_behavior_dashboard.pbix**
-   
-      - Create interactive dashboard in Power BI
-  
-6. **Create Project Report and Presentation**
+### 2. Exploratory Data Analysis (EDA)
 
-      - Create project report
-   
-      - Build presentation deck using Gamma AI
-  
-7. **Follow along with the YouTube video for full walkthrough. 👨‍💼**
+Performed exploratory analysis to understand:
 
+- Customer demographics
+- Purchase distribution
+- Product category performance
+- Subscription behavior
+- Customer spending patterns
 
-## 📜 License
+---
 
-MIT — feel free to fork, star, and use in your portfolio.
+### 3. SQL Analysis
 
-## 👨‍💻 About the Author
-Hey, I’m Amlan Mohanty, a Data Analyst & Content Creator.
-I break down complex data topics into simple, practical content that actually helps you land a job.
+Performed business analysis using SQL by applying:
 
- ### 🚀 Stay Connected & Join my Data Community
-If you enjoyed this project and want to keep learning and growing as a data analyst, let’s stay in touch! I regularly share content around SQL, data analytics, portfolio projects, job tips, and more.
+- Joins
+- Common Table Expressions (CTEs)
+- Window Functions
+- Subqueries
+- Aggregate Functions
 
-🎥 YouTube: [Amlan Mohanty](https://www.youtube.com/@amlanmohanty1)
-- Beginner-friendly tutorials, real-world projects, job and career advice
+Business questions included:
 
-📺 Instagram: [datacareerschool](https://www.instagram.com/datacareerschool/)
-- Quick SQL tips, data memes, and behind-the-scenes content
+- Top-performing product categories
+- Customer segmentation
+- Revenue trends
+- Purchase frequency analysis
+- Subscription analysis
+- Shipping preference analysis
 
-💼 LinkedIn: [Amlan Mohanty](https://www.linkedin.com/in/amlanmohanty1/)
-- Let’s connect professionally and grow your data career
+---
 
+### 4. Dashboard Development
 
-## 💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
+Developed an interactive Power BI dashboard featuring:
+
+- KPI Cards
+- Revenue Analysis
+- Customer Segmentation
+- Product Category Analysis
+- Subscription Insights
+- Age Group Analysis
+- Interactive Filters & Slicers
+
+---
+
+# 📈 Key Insights
+
+- Identified customer purchasing behavior across different demographic groups.
+- Compared revenue contribution across product categories.
+- Analyzed customer subscription trends.
+- Evaluated customer spending patterns.
+- Visualized sales performance using interactive dashboards.
+
+---
+
+# 📁 Repository Structure
+
+```
+Customer-Shopping-Trends-Analysis
+│
+├── analysis.ipynb
+├── queries.sql
+├── dashboard.pbix
+├── dataset.csv
+├── Business Problem Document.pdf
+├── Customer Shopping Behavior Analysis.pdf
+├── screenshots/
+│     ├── dashboard_overview.png
+│     ├── category_analysis.png
+│     └── customer_segmentation.png
+└── README.md
+```
+
+---
+
+# 📷 Dashboard Preview
+
+## Dashboard Overview
+
+> *(Add screenshot here)*
+
+## Customer Segmentation
+
+> *(Add screenshot here)*
+
+## Revenue Analysis
+
+> *(Add screenshot here)*
+
+---
+
+# 💡 Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- SQL Query Writing
+- Data Transformation
+- Customer Segmentation
+- Business Intelligence
+- KPI Reporting
+- Dashboard Development
+- Data Visualization
+- Business Insight Generation
+
+---
+
+# 🚀 Future Improvements
+
+- Perform predictive customer segmentation using machine learning.
+- Automate data refresh using scheduled ETL workflows.
+- Expand dashboard with advanced DAX measures.
+- Integrate additional customer behavior metrics.
+
+---
+
+# 👤 Author
+
+**Sanjeev Kumar Rai**
+
+- LinkedIn: https://linkedin.com/in/sanjeevrai5
+- GitHub: https://github.com/Ok-Sanjeev
+
+---
+
+## ⭐ If you found this project useful, consider giving it a star.
