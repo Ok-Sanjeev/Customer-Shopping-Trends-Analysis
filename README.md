@@ -6,8 +6,6 @@ An end-to-end Data Analytics project that analyzes customer shopping behavior us
 
 # 📊 Dashboard Preview
 
-> **Replace the image below with your own dashboard screenshot.**
-
 ![Dashboard](dashboard/dashboard.png)
 
 ---
@@ -223,9 +221,6 @@ Customer-Shopping-Trends-Analysis
 - Integrate additional business KPIs for deeper analysis.
 
 ---
-
-# 📷 Dashboard Screenshots
-<img width="1272" height="716" alt="Screenshot 2026-07-20 004546" src="https://github.com/user-attachments/assets/9795aef2-278f-4807-a8e6-45d007780729" />
 
 
 # 👤 Author
