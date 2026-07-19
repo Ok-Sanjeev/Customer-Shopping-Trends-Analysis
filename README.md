@@ -1,116 +1,173 @@
 # 📊 Customer Shopping Trends Analysis
 
-## 📌 Overview
+An end-to-end Data Analytics project that analyzes customer shopping behavior using **Python, SQL, and Power BI**. The project transforms raw retail customer data into meaningful business insights through data cleaning, SQL-based analysis, and an interactive Power BI dashboard.
 
-Customer Shopping Trends Analysis is an end-to-end data analytics project that analyzes retail customer purchase behavior using **Python, SQL, and Power BI**. The project focuses on transforming raw customer shopping data into meaningful business insights through data cleaning, SQL analysis, visualization, and dashboard reporting.
+---
+
+# 📊 Dashboard Preview
+
+> **Replace the image below with your own dashboard screenshot.**
+
+![Dashboard](dashboard/dashboard.png)
+
+---
+
+# 📌 Project Overview
+
+This project focuses on understanding customer purchasing behavior by analyzing demographic information, product preferences, purchasing patterns, subscription status, payment methods, and seasonal sales trends.
+
+The workflow covers the complete analytics lifecycle:
+
+- Data Cleaning using Python
+- Exploratory Data Analysis (EDA)
+- Business Analysis using SQL
+- Interactive Dashboard Development in Power BI
+- Business Insight Generation
 
 ---
 
 # 🎯 Business Objective
 
-The objective of this project is to analyze customer demographics, purchasing behavior, product preferences, and subscription trends to help businesses:
+The objective of this project is to help businesses make data-driven decisions by answering questions such as:
 
-- Understand customer purchasing patterns
-- Identify high-performing product categories
-- Analyze customer segmentation
-- Monitor revenue trends
-- Support data-driven business decisions
+- Which product categories generate the highest revenue?
+- Which customer groups spend the most?
+- How do subscriptions affect customer purchasing behavior?
+- Which payment methods and shipping options are preferred?
+- How do sales vary across different seasons?
+
+---
+
+# 📂 Dataset Information
+
+The dataset contains shopping information for approximately **3,900 customers** with **18 attributes**, including:
+
+- Customer ID
+- Age
+- Gender
+- Item Purchased
+- Category
+- Purchase Amount (USD)
+- Location
+- Size
+- Color
+- Season
+- Review Rating
+- Subscription Status
+- Shipping Type
+- Discount Applied
+- Promo Code Used
+- Previous Purchases
+- Payment Method
+- Frequency of Purchases
 
 ---
 
 # 🛠️ Tech Stack
 
-- **Programming:** Python
-- **Libraries:** Pandas
-- **Database:** MySQL
-- **Visualization:** Power BI
-- **Version Control:** Git & GitHub
-
----
-
-# 📂 Dataset
-
-The dataset contains customer shopping information including:
-
-- Customer Demographics
-- Age
-- Gender
-- Product Category
-- Purchase Amount
-- Subscription Status
-- Payment Method
-- Shipping Type
-- Discount Applied
-- Promo Code Usage
-- Previous Purchases
-- Purchase Frequency
+| Technology | Purpose |
+|------------|----------|
+| Python | Data Cleaning & Analysis |
+| Pandas | Data Manipulation |
+| SQL (MySQL) | Business Analysis |
+| Power BI | Dashboard & Visualization |
+| Git & GitHub | Version Control |
 
 ---
 
 # ⚙️ Project Workflow
 
-### 1. Data Cleaning & Preparation
+## 1️⃣ Data Cleaning & Preparation
 
-- Cleaned missing and inconsistent values
-- Validated data quality
-- Prepared analysis-ready dataset using Pandas
+Performed data preprocessing using **Python (Pandas)** by:
+
+- Cleaning inconsistent values
+- Removing duplicate records
+- Standardizing data formats
+- Preparing analysis-ready data
 
 ---
 
-### 2. Exploratory Data Analysis (EDA)
+## 2️⃣ Exploratory Data Analysis (EDA)
 
 Performed exploratory analysis to understand:
 
 - Customer demographics
-- Purchase distribution
-- Product category performance
-- Subscription behavior
+- Product category distribution
 - Customer spending patterns
+- Seasonal purchasing trends
+- Subscription behavior
+- Purchase frequency
 
 ---
 
-### 3. SQL Analysis
+## 3️⃣ SQL Business Analysis
 
-Performed business analysis using SQL by applying:
+Solved multiple business problems using SQL.
 
+### SQL Concepts Used
+
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- Aggregate Functions
 - Joins
 - Common Table Expressions (CTEs)
 - Window Functions
 - Subqueries
-- Aggregate Functions
 
-Business questions included:
+### Business Questions Solved
 
 - Top-performing product categories
 - Customer segmentation
-- Revenue trends
-- Purchase frequency analysis
+- Revenue contribution by category
 - Subscription analysis
+- Purchase frequency analysis
 - Shipping preference analysis
+- Customer spending behavior
 
 ---
 
-### 4. Dashboard Development
+# 📊 Power BI Dashboard
 
-Developed an interactive Power BI dashboard featuring:
+Designed an interactive dashboard to monitor key business metrics and customer behavior.
+
+## Dashboard Features
 
 - KPI Cards
 - Revenue Analysis
-- Customer Segmentation
 - Product Category Analysis
-- Subscription Insights
+- Customer Segmentation
 - Age Group Analysis
+- Gender Analysis
+- Subscription Analysis
+- Shipping Type Analysis
+- Payment Method Analysis
+- Seasonal Revenue Analysis
 - Interactive Filters & Slicers
+- Dynamic Cross-filtering
+
+---
+
+# 📈 Key Performance Indicators (KPIs)
+
+- Total Revenue
+- Total Customers
+- Average Purchase Value
+- Average Review Rating
+- Total Subscribers
 
 ---
 
 # 📈 Key Insights
 
-- Identified customer purchasing behavior across different demographic groups.
-- Compared revenue contribution across product categories.
-- Analyzed customer subscription trends.
-- Evaluated customer spending patterns.
-- Visualized sales performance using interactive dashboards.
+- Clothing generated the highest revenue among all product categories.
+- Young Adults recorded the highest average purchase value.
+- Approximately **73%** of customers were non-subscribers, indicating potential opportunities for subscription growth.
+- Fall generated the highest seasonal revenue, while Summer recorded the lowest.
+- Free Shipping and Express Shipping accounted for a significant share of customer orders.
+- Customer purchasing behavior varied across age groups and product categories.
 
 ---
 
@@ -119,20 +176,28 @@ Developed an interactive Power BI dashboard featuring:
 ```
 Customer-Shopping-Trends-Analysis
 │
-├── analysis.ipynb
-├── queries.sql
-├── dashboard.pbix
-├── dataset.csv
-├── Business Problem Document.pdf
-├── Customer Shopping Behavior Analysis.pdf
-├── screenshots/
-│     ├── dashboard_overview.png
-│     ├── category_analysis.png
-│     └── customer_segmentation.png
+├── dashboard/
+│   ├── Customer_Shopping_Analysis.pbix
+│   └── dashboard.png
+│
+├── data/
+│   └── shopping_trends.csv
+│
+├── sql/
+│   └── analysis.sql
+│
+├── notebooks/
+│   └── analysis.ipynb
+│
+├── docs/
+│   └── Business Problem Document.pdf
+│
 └── README.md
 ```
 
-# 💡 Skills Demonstrated
+---
+
+# 💼 Skills Demonstrated
 
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
@@ -140,29 +205,38 @@ Customer-Shopping-Trends-Analysis
 - Data Transformation
 - Customer Segmentation
 - Business Intelligence
-- KPI Reporting
 - Dashboard Development
+- KPI Reporting
 - Data Visualization
 - Business Insight Generation
+- Data Storytelling
+- Analytical Thinking
 
 ---
 
 # 🚀 Future Improvements
 
-- Perform predictive customer segmentation using machine learning.
-- Automate data refresh using scheduled ETL workflows.
-- Expand dashboard with advanced DAX measures.
-- Integrate additional customer behavior metrics.
+- Develop predictive customer segmentation using Machine Learning.
+- Build customer lifetime value (CLV) models.
+- Automate dashboard refresh using ETL workflows.
+- Add advanced DAX measures and calculated columns.
+- Integrate additional business KPIs for deeper analysis.
 
 ---
+
+# 📷 Dashboard Screenshots
+<img width="1272" height="716" alt="Screenshot 2026-07-20 004546" src="https://github.com/user-attachments/assets/9795aef2-278f-4807-a8e6-45d007780729" />
+
 
 # 👤 Author
 
 **Sanjeev Kumar Rai**
 
-- LinkedIn: https://linkedin.com/in/sanjeevrai5
+🎓 B.E. Computer Science & Engineering (2026)
+
 - GitHub: https://github.com/Ok-Sanjeev
+- LinkedIn: https://linkedin.com/in/sanjeevrai5
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a star.
+## ⭐ If you found this project useful, consider giving it a star!
